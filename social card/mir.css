@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+button {
+    display: block;
+    background-color: #333333;
+    color: #B7B7B7;
+    border: 0;
+    border-radius: 5px;
+    padding: 11PX;
+    margin: 9px;
+    font-weight: 800;
+}
+
+.war {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: stretch;
+    margin: 10px 0;
+    padding: 19px;
+    background-color: #1F1F1F;
+}
+
+
+.wer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    
+
+}
+
+img {
+    border-radius: 120px;
+    width: 100px;
+    align-self: center;
+    height: 79px;
+    width: 79px;
+    margin: 10px;
+    
+}
+
+.oq {
+    color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 9px;
+    font-family: ;
+    
+
+}
+
+.yashil {
+    color: #93AE52;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size:13px ;
+}
+
+.ow {
+    color: #7B7B7B;
+font-size: 15px;
+margin: 20px 13px 13px 8px;
+font-weight: 500;
+}

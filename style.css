@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.birga {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.karta {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    /* height: 80vh; */
+    border-radius: 10px;
+    font-family: Figtree;
+    width: 336px;
+    border: black 1px solid;
+    box-shadow: 10px 9px 0px -2px rgba(0, 0, 0, 1);
+}
+
+.main {
+    background-color: #F5D04E;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #F8CE44;
+    cursor: pointer;
+    align-self: start;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.rasm {
+    display: flex;
+    align-self: center;
+    border-radius: 15px;
+    width: 300px;
+    margin-top: 20px;
+
+
+}
+
+.yil {
+    font-size: 13px;
+    margin-top: 13px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+}
+
+.matn {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bola {
+    width: 34px;
+}
+
+h5 {
+    font-weight: 900;
+}
+
+.matn {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+@media screen and (max-width:410px) {
+    .karta {
+        width: 260px;
+        margin: 0 16px;
+    }
+
+    .rasm {
+        width: 230px;
+    }
+}
